@@ -1,0 +1,13 @@
+<h1>Lista de Compras</h1>
+
+<p><strong>Data:</strong> <%= data_br Date.today %></p>
+
+<ul>
+    <li><%= link_to "Cadastro de Itens", items_path %></li>
+</ul>
+
+<ul>
+    <li><%= link_to "Cadastro de Tipos", classifications_path %></li>
+</ul>
+
+<p>Você  está em ambiente de <strong><%= ambiente_rails %></strong></p>
